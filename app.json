@@ -1,0 +1,44 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/logs/logs"
+    ],
+    "window": {
+        "backgroundTextStyle": "white",
+        "navigationBarBackgroundColor": "#f7982a",
+        "navigationBarTitleText": "WeChat",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "服务",
+                "iconPath": "images/xihuan.png",
+                "selectedIconPath": "images/xihuanfill.png"
+            },
+            {
+                "pagePath": "pages/activity/activity",
+                "text": "活动",
+                "iconPath": "images/biaoxing.png",
+                "selectedIconPath": "images/biaoxingfill.png"
+            },
+            {
+                "pagePath": "pages/my/my",
+                "text": "我发起的",
+                "iconPath": "images/yonghu.png",
+                "selectedIconPath": "images/yonghufill.png"
+            }
+        ],
+        "color": "#333",
+        "selectedColor": "#f7982a",
+        "backgroundColor": "#f6f6f6",
+        "borderStyle": "white"
+    },
+    "networkTimeout": {
+      "request": 20000,
+      "connectSocket": 20000,
+      "uploadFile": 20000,
+      "downloadFile": 20000
+    }
+}
